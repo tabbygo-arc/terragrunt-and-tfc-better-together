@@ -30,4 +30,7 @@ the state is now centrally stored, with RBAC. The credential is centrally contro
 
 In addition to this, you can then add sentinel or run task to show guardrail.
 
+Don't forget to migrate back to local/s3 and destroy so it is ready for next demo.
+
+
 
