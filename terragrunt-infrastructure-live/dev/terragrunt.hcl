@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/tabbygo-arc/terragrunt-and-tfc-better-together.git"
+  source = "git::https://github.com/tabbygo-arc/terragrunt-and-tfc-better-together"
 }
 
 inputs = {
