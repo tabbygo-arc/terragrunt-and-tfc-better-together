@@ -3,11 +3,11 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/ausmartway/terraform-terragrunt-infrastructure-module?ref=0.0.3"
+  source = "git::https://github.com/tabbygo-arc/terragrunt-and-tfc-better-together.git"
 }
 
 inputs = {
-  prefix = "yuleiliu"
+  prefix = "tabby"
   instance_type  = "t3.nano"
   environment = "dev"
   

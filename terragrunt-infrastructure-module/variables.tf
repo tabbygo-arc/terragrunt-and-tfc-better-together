@@ -1,7 +1,7 @@
 # Define your variables in here.
 variable "prefix" {
   type        = string
-  default     = "yuleiliu"
+  default     = "tabby"
   description = "description"
 }
 

@@ -20,8 +20,8 @@ data "aws_ami" "ubuntu" {
    tags = {
      Name= "${var.prefix}-terragrunt-test-${var.environment}"
      ttl           = 1
-     owner         = "yulei@hashicorp.com"
-     region        = "APJ-ANZ"
+     owner         = "tabby.orwa@hashicorp.com"
+     region        = "us-east-2"
      purpose       = "demo"
      terraform     = "true"
      tfe           = "true"
